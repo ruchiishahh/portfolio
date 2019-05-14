@@ -523,6 +523,44 @@ table {
 	font-size: 15px;
 }
 
+/* ==========================================================================Hero15========================================================================== */
+
+
+.hero15 {
+	background: url('../img/1header-bg.jpg') right bottom no-repeat;
+	background-size: contain;
+	padding:110px 0 100px 0;
+	height:auto;
+	background-color: #FBFBFB;
+}
+.hero15 h1 {
+	font-size: 120px;
+	letter-spacing: -8px;
+	margin: 0;
+	font-weight: 600;
+	line-height: 95px;
+	text-transform: uppercase;
+}
+.hero15 h1 span {
+	color:#a1a9b0;
+	/* display:inline-block; */
+}
+.hero15 h3 {
+	font-size: 20px;
+	margin:0;
+	padding:0;
+	opacity:0.5;
+	color: #E04343;
+	letter-spacing: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.hero15 p {
+	letter-spacing:1px;
+	color:#fff;
+	font-size: 15px;
+}
+
 /* ==========================================================================Hero2========================================================================== */
 .hero2 {
 	background: url('../img/webdev1.jpg') right bottom no-repeat;
@@ -595,6 +633,47 @@ table {
 	color:#fff;
 	font-size: 15px;
 }
+
+
+/* ==========================================================================Hero2========================================================================== */
+.hero4 {
+	background: url('../img/header-bg6.jpg') right bottom no-repeat;
+	background-size: contain;
+	padding:110px 0 100px 0;
+	height:auto;
+	background-color: #FBFBFB;
+}
+.hero4 h1 {
+	font-size: 120px;
+	letter-spacing: -8px;
+	margin: 0;
+	font-weight: 600;
+	line-height: 95px;
+	text-transform: uppercase;
+}
+.hero4 h1 span {
+	color:#a1a9b0;
+	/* display:inline-block; */
+}
+.hero4 h3 {
+	font-size: 20px;
+	margin:0;
+	padding:0;
+	opacity:0.5;
+	color: #E04343;
+	letter-spacing: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.hero4 p {
+	letter-spacing:1px;
+	color:#fff;
+	font-size: 15px;
+}
+
+
+/* ==========================================================================Hero3========================================================================== */
+
 /* Boucing Arrow Animation */
 @keyframes arrowbounce {
 	from {
@@ -1211,6 +1290,11 @@ ul.slides li {
 .delay-1s {
 	animation-delay:1s;
 	-webkit-animation-delay:1s;
+}
+
+.delay-2s {
+	animation-delay:2s;
+	-webkit-animation-delay:2s;
 }
 .wp3 {
 	background:url('../img/iphone-bg.png') no-repeat center center;
