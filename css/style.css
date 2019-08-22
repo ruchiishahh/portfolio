@@ -1,4 +1,3 @@
-/*========================================================================*/
 
 
 
@@ -1063,8 +1062,8 @@ img.grayscale:hover {
 }
 .outline-btn {
 	display:inline-block;
-	padding:25px 40px;
-	color: #FFE801;
+	padding:20px 30px;
+	color: #E04343;
 	border: solid 1px #FFE801;
 	text-transform:uppercase;
 	font-weight:bold;
