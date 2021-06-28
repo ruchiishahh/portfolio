@@ -20,6 +20,60 @@
 
 
 
+.banner_inner_text h1 {
+  font-size: 72px;
+  color: #0b1033;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+
+
+.challange_area {
+  overflow: hidden;
+}
+
+.challange_text_inner {
+  max-width: 545px;
+  float: right;
+}
+
+.challange_text_inner p {
+  font-size: 15px;
+  line-height: 28px;
+  color: #7c8d93;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding-right: 25px;
+}
+
+.challange_text_inner .c_video {
+  padding-top: 35px;
+}
+
+.challange_text_inner .c_video a {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #0b1033;
+}
+
+.challange_text_inner .c_video a img {
+  padding-right: 15px;
+}
+
+.challange_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.challange_img .challange_img_inner {
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-shadow: 0px 27px 68px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 27px 68px 0px rgba(0, 0, 0, 0.4);
+}
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
@@ -97,11 +151,13 @@ html,html a {
 	text-shadow:1px 1px 1px rgba(0,0,0,0.004);
 }
 html,button,input,select,textarea {
-	font-family:'Varela Round',sans-serif;
+	font-family:'Roboto',sans-serif;
+	font-weight: lighter;
 }
 body {
 	margin:0;
-	font-family: 'Varela Round',normal;
+	font-family: 'Roboto',normal;
+	font-weight: lighter;
 }
 /* ==========================================================================Links========================================================================== */
 a:focus {
@@ -111,7 +167,7 @@ a:active,a:hover {
 	outline: 0;
 }
 /* ==========================================================================Typography========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 h1 {
 	font-size:2em;
 	margin:0.67em 0;
@@ -313,6 +369,8 @@ table {
 	-webkit-transform:translate(0,-15px);
 	-ms-transform:translate(0,-15px);
 }
+
+
 .wrapper {
 	height:650px;
 }
